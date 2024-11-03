@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    background-color: rgb(4, 4, 4);
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 222, 247, 0.84);
+    box-shadow: 0px 4px 12px #fffeff;;
+}
+
+.navbar__title {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid #e1b3ff;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+ box-shadow: 0px 4px 12px #e1b3ff;;;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Features Box */
+.card-features-box {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.card-features {
+    list-style: none;
+}
+
+.card-features li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Description Box Styling */
+.description-box {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 900px; /* Define the maximum width */
+    text-align: center;
+    box-shadow: 0px 4px 12px #e1b3ff;;
+    margin: 20px auto; /* Center the box horizontally */
+}
+
+.description-box p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
